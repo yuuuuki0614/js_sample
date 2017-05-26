@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>Sample</title>
+</head>
+<body>
+	Javascript
+	<div>
+		<input type="button" value="アラート" onclick="alert('Hello,Cebu!');">
+	</div>
+	<!-- 以下２桁を追加 -->
+	<p id="change">ここを書き換えます</p>
+	<!-- <input type="button" value="書き換え" onclick="document.getElementById('change').textContent = '書き換えました！';"> -->
+	<input type="button" value="書き換え" onclick="rewite_text();">
+
+
+	<script type="text/javascript">
+		// console.log('Hello, Cebu!');
+		// alert('Hello,Cebu!');
+	</script>
+
+	<!-- 外部のファイルを読み込んでいる。この方が中身は見やすい。 下部に表示するのは先にhtmlを表示させておきたいから-->
+	<script src="script.js"></script>
+
+</body>
+</html>
